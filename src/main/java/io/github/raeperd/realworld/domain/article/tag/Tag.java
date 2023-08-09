@@ -1,9 +1,9 @@
 package io.github.raeperd.realworld.domain.article.tag;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Objects;
 
-import static javax.persistence.GenerationType.IDENTITY;
+import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Table(name = "tags")
 @Entity
